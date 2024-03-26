@@ -5,7 +5,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-y", "--year", required=False, help="Year", default="2023")
     ap.add_argument("-v", "--variable", required=False, help="Variable", default="2m_temperature")
-    ap.add_argument("-p", "--path", required=False, help="Path", default=".")
+    ap.add_argument("-p", "--path", required=False, help="Path", default="download")
     args = ap.parse_args()
 
     year, variable, path = args.year, args.variable, args.path
