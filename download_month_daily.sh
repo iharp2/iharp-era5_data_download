@@ -4,8 +4,7 @@ source venv/bin/activate
 # $1 is the month
 # $2 is the number of days in the month
 
-for i in {1..$2}
-do
+for ((i=1; i<=$2; i++)); do
     python download_daily.py -m $1 -d $i
 done
 
