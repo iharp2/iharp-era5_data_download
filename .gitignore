@@ -1,3 +1,3 @@
 /venv/
 /download/*.nc
-!/download/2m_temperature-2023-01-01.nc
+!/download/2m_temperature-2023-01-*.nc
