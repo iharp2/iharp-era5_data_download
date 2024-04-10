@@ -33,6 +33,7 @@ if __name__ == "__main__":
             "month": [month],
             "day": [f"{str(i).zfill(2)}" for i in range(1, 32)],
             "time": [f"{str(i).zfill(2)}:00" for i in range(24)],
+            'area': [90, -180, -90, 180,],
         },
         file_path,
     )
